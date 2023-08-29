@@ -1,0 +1,17 @@
+.titulo, .subtitulo {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 21.440px 0;
+}
+
+.subtitulo {
+    font-size: 1.5em;
+    margin: 19.920px 0;
+}
+
+span {
+    display: block;
+    margin: 16px 0;
+}
+
