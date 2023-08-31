@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acessibilidade</title>
+</head>
+<body>
+    <nav role="navigation" aria-label="Navegação Breadcrump">
+        <ul>
+            <li>
+                <a href="#">Categoria</a>
+            </li>
+            <li>
+                <a href="#">Bonés</a>
+            </li>
+            <li aria-current="page">
+                Times
+            </li>
+        </ul>
+    </nav>
+
+    <div role="dialog" aria-modal="true">
+
+    </div>
+
+    <button aria-controls="pergunta01">pergunta</button>
+    <div id="pergunta01" aria-hidden="true">
+        resposta
+    </div>
+
+</body> 
+</html>
