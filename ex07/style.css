@@ -1,0 +1,35 @@
+.grid-elementos {
+    display: grid;
+    grid-template-areas: 
+    "header header header header"
+    "aside main main main"
+    "footer footer footer footer"
+    ;
+}
+
+.elementos {
+    background-color: rgb(73, 73, 150);
+    border: solid 1px white;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.header {
+    grid-area: header;
+    height: 100px;
+}
+
+.aside {
+    grid-area: aside;
+    height: 700px;
+}
+
+.main {
+    grid-area: main;
+    height: 700px;
+}
+
+.footer {
+    grid-area: footer;
+    height: 100px;
+}
