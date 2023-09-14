@@ -168,9 +168,9 @@
         const btnTrocarCor = document.getElementById('trocar-cor');
         const root = document.documentElement;
 
-        btnTrocarCor.addEventListener('click', ()=> {
+        btnTrocarCor.addEventListener('click', () => {
             const corAtual = root.style.getPropertyValue('--bg-principal');
-            if(corAtual === '#fff') {
+            if (corAtual === '#fff') {
                 root.style.setProperty('--bg-principal', '#000');
                 root.style.setProperty('--bg-header', '#000');
                 root.style.setProperty('--txt-1', '#fff');
@@ -184,6 +184,16 @@
         })
     </script>
 
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
 </body>
 
 </html>
