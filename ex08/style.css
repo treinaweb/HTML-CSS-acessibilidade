@@ -1,40 +1,11 @@
 .bloco-de-cores {
-    position: relative;
-    display: flex;
-    color: white;
-}
-
-.cor-1{
-    background-color: red;
-    width: 100%;
-    height: 100px;
-}
-
-.cor-2{
-    background-color: green;
-    width: 100%;
-    height: 100px;
-}
-
-.cor-3{
-    background-color: blue;
-    width: 100%;
-    height: 100px;
-}
-
-.cor-4{
-    background-color: rgb(82, 82, 82);
-    width: 100%;
-    height: 100px;
-}
-
-.cor-5{
     background-color: black;
-    width: 100%;
-    height: 100px;
+    padding: 20px;
 }
 
-.texto{
-    position: absolute;
-    top: 10px;
+.texto {
+    color: #fff;
+    font-size: 2rem;
 }
+
+
