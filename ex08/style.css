@@ -1,11 +1,86 @@
-.bloco-de-cores {
-    background-color: black;
-    padding: 20px;
+:root {
+    --bg-principal: #fff;
+    --bg-header: #9c9fe8;
+    --txt-1: #888;
+    --txt-2: #000;
 }
 
-.texto {
-    color: #fff;
-    font-size: 2rem;
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    max-width: 1000px;
+    margin-inline: auto;
+    padding: 15px;
 }
 
+/* Header */
+header {
+    background-color: var(--bg-header);
+    padding: 10px 0;
+}
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.itens-menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.itens-menu li,
+.itens-menu a {
+    color: var(--txt-2);
+}
+
+.trocar-cor {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+    color: inherit;
+    border: solid 1px var(--txt-2);
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+hr {
+    margin: 30px 0;
+}
+
+/* Main */
+main {
+    background-color: var(--bg-principal);
+    color: var(--txt-2);
+}
+
+.titulo,
+.subtitulo {
+    text-align: center;
+}
+
+p {
+    color: var(--txt-1);
+}
+
+.grid-textos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.grid-textos section {
+    padding: 10px;
+    border: 2px solid var(--bg-2);
+}
